@@ -1,0 +1,19 @@
+{
+    "name": "arashabedii/commander",
+    "type": "lib",
+    "description": "php commandline tool",
+    "keywords": ["lib", "command","shell"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ArashAbedii\\":"src/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
